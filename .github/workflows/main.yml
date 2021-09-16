@@ -2,10 +2,7 @@ name: AWS S3 Deploy
 on:
   push:
     branches:
-      - main
-
-  # allows you to run this workflow manually from the actions tab
-  workflow_dispatch:
+      - master
 
 
 jobs:
